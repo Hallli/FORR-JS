@@ -47,7 +47,7 @@ for( var i = 0; i < oddNumbers.length; i++){
 console.log(oddNumbers);
 ```
 
-### 2
+### 2.4
 1
 ```javascript
 const upplysingar = {
