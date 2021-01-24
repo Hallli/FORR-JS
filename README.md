@@ -70,7 +70,35 @@ console.log(`Blessaður ${upplysingar.nafn} þú ert eða ert að verða ${2021-
 ```javascript
 console.log(family.parents.fathers[1].name)
 ```
+### 2.6
 
+```javascript
+class User {
+  constructor(name, email) {
+    this._name = name;
+    this._email = email;
+  }
+
+  get email() {
+    return this._name;
+  }
+
+  set email(newEmail) {
+    this._email = newEmail;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  set name(newName) {
+    this._name = newName;
+  }
+}
+
+let user = new User('halli 'halli@bob.com');
+console.log(`hallo ${user.name}, netfangið þitt er ${user.email}`);
+```
 ### 2.8
 
 1
