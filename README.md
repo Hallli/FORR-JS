@@ -70,3 +70,46 @@ console.log(`Blessaður ${upplysingar.nafn} þú ert eða ert að verða ${2021-
 ```javascript
 console.log(family.parents.fathers[1].name)
 ```
+
+### 2.6
+
+1
+```javascript
+class User {
+  constructor(name, email) {
+    this.name = name;
+    this.email = email;
+  }
+
+  setName(newName) {
+    this.name = newName;
+  }
+
+  setEmail(newEmail) {
+    this.email = newEmail;
+  }
+
+  getName() {
+    return this.name;
+  }
+
+  getEmail() {
+    return this.email;
+  }
+}
+```
+2
+```javascript
+const user1 = new User('agustuspo', 'agustpolgars@gmail.com')
+const user2 = new User('nonnipe', 'nonnipeturs@gmail.com')
+const user1obj = {
+  name: user1.getName(),
+  email: user1.getEmail(),
+}
+const user2obj = {
+  name: user2.getName(),
+  email: user2.getEmail(),
+}
+console.log(user1obj)
+console.log(user2obj)
+```
