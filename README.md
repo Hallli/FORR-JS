@@ -46,3 +46,9 @@ for( var i = 0; i < oddNumbers.length; i++){
 }
 console.log(oddNumbers);
 ```
+
+### 2.5
+
+```javascript
+console.log(family.parents.fathers[1])
+```
