@@ -47,8 +47,22 @@ for( var i = 0; i < oddNumbers.length; i++){
 console.log(oddNumbers);
 ```
 
+### 2
+1
+```javascript
+const upplysingar = {
+  nafn: 'Halli',
+  faedingarar: 2003,
+  email: ['haraldur.sigfus@gmail.com', 'hsm@gmail.com', 'halli@gmail.com']
+};
+
+//upplysingar.nafn
+//upplysingar.faedingarar
+//upplysingar.email
+```
+2
 ### 2.5
 
 ```javascript
-console.log(family.parents.fathers[1])
+console.log(family.parents.fathers[1].name)
 ```
