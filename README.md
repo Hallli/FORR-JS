@@ -71,9 +71,10 @@ console.log(`Blessaður ${upplysingar.nafn} þú ert eða ert að verða ${2021-
 console.log(family.parents.fathers[1].name)
 ```
 
-### 2.6
+### 2.8
 
 1
+2
 ```javascript
 class User {
   constructor(name, email) {
