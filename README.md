@@ -46,7 +46,7 @@ for( var i = 0; i < oddNumbers.length; i++){
 }
 console.log(oddNumbers);
 ```
-
+console.log(`1 + 1 is ${1 + 1}`)
 ### 2.4
 1
 ```javascript
@@ -61,6 +61,10 @@ const upplysingar = {
 //upplysingar.email
 ```
 2
+```javascript
+console.log(`Blessaður ${upplysingar.nafn} þú ert eða ert að verða ${2021-upplysingar.faedingarar} og ert fæddur árið ${upplysingar.faedingarar}`)
+```
+
 ### 2.5
 
 ```javascript
