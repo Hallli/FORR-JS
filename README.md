@@ -96,8 +96,8 @@ class User {
   }
 }
 
-let user = new User('halli 'halli@bob.com');
-console.log(`hallo ${user.name}, netfangið þitt er ${user.email}`);
+let user = new User("Halli", "halli@bob.com");
+console.log(`Hallo ${user._name}, netfangið þitt er ${user._email}`);
 ```
 ### 2.7
 1
