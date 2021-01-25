@@ -46,7 +46,7 @@ for( var i = 0; i < oddNumbers.length; i++){
 }
 console.log(oddNumbers);
 ```
-console.log(`1 + 1 is ${1 + 1}`)
+
 ### 2.4
 1
 ```javascript
@@ -99,6 +99,34 @@ class User {
 let user = new User('halli 'halli@bob.com');
 console.log(`hallo ${user.name}, netfangið þitt er ${user.email}`);
 ```
+### 2.7
+1
+2
+```javascript
+class Animal {
+   constructor(name, speed) {
+    this.name = "anni",
+    this.speed = 0
+  }
+}
+
+class Rabbit {
+   constructor(name, jump) {
+    this.name = "Níels",     
+    this.jump = 0
+  }
+}
+
+let animal = new Animal();
+let rabbit = new Rabbit();
+
+function run() {
+  console.log(++animal.speed)
+  console.log(++rabbit.jump)
+}
+
+run()
+```
 ### 2.8
 
 1
@@ -141,4 +169,41 @@ const user2obj = {
 }
 console.log(user1obj)
 console.log(user2obj)
+```
+
+### 2.9
+```javascript
+let cart = [
+   {name: "Biscuits", type: "regular", category: "food", price: 2.0},
+   {name: "Monitor", type: "prime", category: "tech", price: 119.99},
+   {name: "Mouse", type: "prime", category: "tech", price: 25.50},
+   {name: "dress", type: "regular", category: "clothes", price: 49.90},
+]
+
+passi()
+var las="apaskitur888";
+function passi() {
+  var lykill = prompt("Sláðu inn afsláttarkóðann...");
+  if (lykill == las)
+  {
+    for (let teljari = 0; teljari < cart.length;teljari++) {
+    var found = false;
+    for (var i = 0; i < cart.length && !found; i++) {
+      if (cart[teljari].category === "tech") {
+        verd = (cart[teljari].price * .8)
+        cart[teljari].price = verd 
+        found = true;
+        break;
+          }
+        }
+    console.log(cart[teljari])
+    }
+  }
+ else { 
+    console.log("haha vitlaust. enginn afsláttur :)")
+    for (let teljari = 0; teljari < cart.length;teljari++) {
+        console.log(cart[teljari])
+    }
+  }
+}
 ```
